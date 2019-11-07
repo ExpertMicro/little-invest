@@ -1,0 +1,360 @@
+/*ESTILOS GERAIS*/
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 2.625em;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 2.625em;
+  line-height: 48px;
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.25em;
+  color:#808080;
+  font-weight: 500;
+}
+
+h3, h4 {
+  font-size: 1.25em;
+  line-height: 1.6875em;
+  font-weight: 500;
+}
+
+input {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.form input {
+  background:$cor-formulario-input !important;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #fff;
+}
+
+
+/*CLASSE BOTÃO*/
+.btn {
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.3);
+  border-radius: 4px;
+  background: $cor-primaria;
+  color:#fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-large {
+  padding: 10px 30px;
+}
+
+.btn:hover {
+  background: $cor-do-hover-btn;
+}
+
+
+
+/*HEADER*/
+
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  background-color: $cor-do-header;
+}
+
+.header img {
+  width:155px;
+}
+
+.header-menu {
+  text-align: right;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+
+.header-menu ul li a {
+  color: #000;
+  line-height: 1em;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.header-menu ul li a:hover {
+  color: $cor-do-hover-nomes;
+}
+
+.header-menu li a.btn:hover {
+  color: #fff;
+}
+
+.header-menu ul li a.btn:last-child {
+  color: #fff;
+}
+
+
+/*SESSÃO DESCRIÇÃO*/
+
+.intro {
+  padding: 40px 0;
+}
+
+.intro h1 {
+  padding: 0 0 30px 0;
+}
+
+
+.intro img {
+  width: 395.3px;
+}
+
+/*SESSÃO DE INVESTIMENTOS*/
+.investimentos {
+  background: $cor-primaria;
+  padding: 60px 0;
+}
+
+.items {
+  background: #fff;
+  border-radius: 4px;
+  padding: 30px 30px 20px;
+}
+
+.items .btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.items .btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.investimentos h4 {
+  color: $cor-primaria;
+}
+
+.investimentos h4::after {
+  content: '';
+  width: 40px;
+  height: 2px;
+  display: block;
+  margin-top: 10px;
+  background: #dedede ;
+}
+
+.investimentos p {
+  padding: 17px 8px;
+}
+
+
+/* Sessão qualidade*/
+.qualidade {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.qualidade-item div {
+  margin: 0 auto;
+}
+
+.qualidade h2 {
+  margin-bottom: 60px;
+}
+
+.qualidade h3 {
+  margin: 20px 0 10px;
+}
+
+.qualidade p {
+  margin: 0 auto;
+  max-width: 200px;;
+}
+
+.qualidade-btn {
+  padding-top: 50px;
+}
+
+
+/*Citacao*/
+.citacao {
+  width: 100%;
+  height: 700px;
+  background: url("../img/citacao.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.citacao blockquote p::before {
+  content: '“';
+  display: block;
+  font-size: 200px;
+  font-weight: 600;
+  font-style: italic;
+  color: $cor-primaria;
+}
+
+.citacao blockquote p {
+  font-size: 2.625em;
+  line-height: 55px;
+  color: #fff;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 350px;
+  text-align: start;
+}
+
+.citacao blockquote cite {
+  font-size: 1.25em;
+  line-height: 27px;
+  color: #bbb;
+  margin-top: 10px;
+}
+
+/*Sessão cadastro*/
+.cadastro {
+  display: flex;
+}
+
+.cadastro-item {
+  float: left;
+  width: 50%;
+  height: 500px;
+  padding: 60px 0;
+}
+
+.cadastro-item .form {
+  margin-top: 40px;
+}
+
+.form label {
+  display: block;
+  font-size: 1.25em;
+  line-height: 27px;
+  font-weight: 500;
+  margin: 20px 0 10px;
+}
+
+.form input {
+  width: 400px;
+  display: block;
+  
+  padding: 10px 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.form button {
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.3);
+  border-radius: 4px;
+  background: $cor-primaria;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.cadastro-item img {
+  width: 300px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.cadastro-item:first-child {
+  background: #f2f2f2;
+  padding-left: 155px;
+}
+
+.cadastro-item:last-child {
+  text-align: center;
+}
+
+
+/*Footer*/
+.footer {
+  background: $cor-do-footer;
+  padding: 30px 0;
+  clear: both;
+}
+
+.footer h3 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.footer ul div {
+  display: inline-block;
+}
+
+.footer ul li {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.footer p {
+  color: #fff;
+}
+
+.footer ul li a {
+  color: #fff;
+}
+
+.social-icons li {
+  display: inline-block;
+}
+
+.social-icons li img {
+  width: 50px;
+  height: 50px;
+}
+
+.copy {
+  background: $cor-primaria;
+  padding: 20px 0;
+}
+
+.copy p {
+  color: #fff;
+  text-align: center;
+}

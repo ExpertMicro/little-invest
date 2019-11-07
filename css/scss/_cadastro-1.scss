@@ -1,0 +1,73 @@
+/*Formulario*/
+.formulario {
+  padding: 60px 0;
+}
+
+.formulario .btn {
+  clear: both;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0 0 200px
+}
+
+.titulo {
+  background: $cor-primaria;
+  color: #fff;
+  padding: 23px;
+  text-align: center;
+}
+
+.progressbar {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+}
+
+.progressbar li.active::before {
+  background: $cor-primaria;
+}
+
+.progressbar li {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  width: 33.3333%;
+  float: left;
+  position: relative;
+}
+
+.progressbar li::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #929df7;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.progressbar li::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 8px;
+  left: -50%;
+  background: #ddd;
+  z-index: -1;
+}
+
+.progressbar li:first-child::after {
+  content: none;
+}
+
+.formulario .btn img {
+  width: 11px;
+  height: 22px
+}
+

@@ -1,0 +1,181 @@
+/*Estilo para tablet*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .items {
+    background:#fff;
+    padding: 30px 10px 20px;
+    border-radius: 4px
+  }
+
+  .form input {
+    width: 320px;
+    display: block;
+    background: #ddd;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .formulario .btn {
+    clear: both;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 0 140px;
+  }
+
+  .form-2 input {
+    width: 400px;
+  }
+
+  .form-2 .btn {
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (min-width: 990px) {
+  .home-form-resp input {
+    width: 280px;
+    display: block;
+    background: #ddd;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 4px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .cadastro-item:first-child {
+    padding-left: 55px;
+  }
+}
+
+@media only screen and (max-width:787px) {
+  
+  h1,h2 {
+    font-size:2em;
+    line-height: 40px
+  }
+  .header {
+    height: 85px;
+    flex-direction: column;
+  }
+
+  .header-menu {
+    margin-top: 5px;
+  }
+  .header img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+  }
+
+  .menu li a.btn {
+    display: none;
+  }
+
+  .intro h1 {
+    padding: 0
+  }
+
+  .intro .btn {
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+  }
+  
+  .intro img {
+    margin-top: 10px;
+  }
+
+  .qualidade-item {
+    margin-top: 50px !important;
+  }
+
+  .qualidade-item img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .citacao blockquote p {
+    font-size: 2em;
+    line-height: 48px;
+    padding-right: 0;
+    margin-top: 150px;
+    margin-bottom: 20px
+  }
+
+  .cadastro-item:first-child {
+    padding-left: 0
+  }
+
+  .cadastro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cadastro-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .titulo {
+    padding: 0;
+    text-align: center
+  }
+
+  .titulo h1 {
+    font-size: 1.5em;
+    margin-top: 10px
+  }
+
+  .form {
+    clear: both;
+  }
+
+  .form input {
+    width: 280px;
+    display: block;
+    background: #ddd;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .formulario .form input {
+    width: 300px
+  }
+
+  .formulario .btn {
+    margin: 25px 0 0 100px;
+  }
+
+  .progressbar {
+    width: 300px;
+  }
+
+  .form-2  {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .form-2 .small input {
+    width: 120px;
+  }
+
+  .cadastro-3 h2 {
+    clear: both;
+  }
+
+  .cadastro-3 h2 {
+    margin: 0;
+  }
+
+}
+
+
+/*Estilo para smartphone*/
